@@ -45,4 +45,7 @@ class Word {
   }
 }
 
+let testing = new Word("testing")
+console.log(testing.pigLatin())
+
 module.exports = { Word };
